@@ -1,5 +1,18 @@
 {
-  "vite": true,
+  // "vite": true,
+  // "webpackPlugins": {
+  //   // "node-polyfill-webpack-plugin": {
+  //   //   "options": {
+
+  //   //   }
+  //   // },
+  //   "webpack.ProvidePlugin": {
+  //     "options": {
+  //       "process": "process/browser"
+  //     }
+  //   }
+  // },
+  "minify": false,
   "plugins": [
     "@ali/build-plugin-ice-def"
   ]
